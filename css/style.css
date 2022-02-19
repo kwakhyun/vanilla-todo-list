@@ -1,0 +1,75 @@
+.hidden {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+#clock {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 256px;
+  margin-bottom: 0;
+  font-size: 128px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#login-form {
+  text-align: center;
+  margin-top: 0;
+}
+
+#greeting {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 0;
+  font-size: 32px;
+}
+
+#todo-form {
+  text-align: center;
+  margin-top: 32px;
+}
+
+#todo-input {
+  width: 240px;
+  height: 24px;
+  border-radius: 10px;
+  border: solid 4px #1c2833;
+}
+
+#todo-btn {
+  width: 80px;
+  height: 30px;
+  margin-left: 4px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #1c2833;
+  border: solid 2px;
+}
+
+#todo-list {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 32px;
+}
+
+#quote {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 32px;
+  font-size: 16px;
+}
+
+#weather {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 256px;
+  font-size: 16px;
+}
