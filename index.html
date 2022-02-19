@@ -13,6 +13,10 @@
     <title>to-do list</title>
   </head>
   <body>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
     <h2 id="clock">00:00:00</h2>
     <form id="login-form" class="hidden">
       <input
@@ -20,7 +24,7 @@
         required
         maxlength="15"
         type="text"
-        placeholder=" 이름을 입력하세요."
+        placeholder=" 닉네임 입력"
       />
       <input id="todo-btn" type="submit" value="입력" />
     </form>
@@ -29,7 +33,7 @@
       <input
         id="todo-input"
         type="text"
-        placeholder=" 할 일을 메모하세요."
+        placeholder=" 할 일 메모"
         required
       />
     </form>
@@ -37,10 +41,6 @@
     <div id="quote">
       <span></span>
       <br />
-      <span></span>
-    </div>
-    <div id="weather">
-      <span></span>
       <span></span>
     </div>
     <script src="js/greetings.js"></script>
