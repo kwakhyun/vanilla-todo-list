@@ -10,7 +10,7 @@ function onGeoSuccess(position) {
       const country = document.querySelector("#weather span:first-child");
       const weather = document.querySelector("#weather span:last-child");
       country.innerText = data.sys.country;
-      weather.innerText = `| 날씨 : ${data.weather[0].main} | 기온 : ${data.main.temp} | 체감 기온 : ${data.main.feels_like} | 최소 기온 : ${data.main.temp_min} | 최고 기온 : ${data.main.temp_max}`;
+      weather.innerText = `| 날씨 : ${data.weather[0].main} | 현재 : ${data.main.temp} | 체감 : ${data.main.feels_like} | 최소 : ${data.main.temp_min} | 최고 : ${data.main.temp_max}`;
     });
 }
 function onGeoError() {
