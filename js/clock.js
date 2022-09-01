@@ -9,4 +9,6 @@ function getClock() {
 }
 
 getClock();
+
+// 1초마다 현재 시간 갱신
 setInterval(getClock, 1000);
