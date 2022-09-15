@@ -1,4 +1,4 @@
-## vanilla-todo-list
+## Todo List JS App
 
 ### GitHub Pages
 - https://kwakhyun.github.io/vanilla-todo-list/
